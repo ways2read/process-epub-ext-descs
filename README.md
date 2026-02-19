@@ -306,10 +306,13 @@ The tool ensures:
 Improvements and bug reports welcome! Key areas for enhancement:
 
 - Support for delimiters in other element types (div, aside, etc.)
+- Option to compile extended desciptions for each chapter into a single XHTML file
 - More sophisticated image association algorithms
 - Custom CSS for extended description pages
 - Batch processing of multiple EPUBs
 - GUI wrapper for non-technical users
+- Support for other complex content items (e.g. tables)
+- Support the alternative implementation "Extended description placed just below the image"
 
 ## License
 
@@ -320,6 +323,6 @@ MIT License - feel free to use and modify as needed.
 This tool supports the EPUB Accessibility 1.1 specification's recommendation for extended descriptions. Extended descriptions provide detailed information about complex images, making content more accessible to users of assistive technology.
 
 For more information, see:
+- [Draft Extended Descriptions Best Practices](https://htmlpreview.github.io/?https://github.com/daisy/transitiontoepub/blob/main/best-practices/extended-desc/index.html)
 - [EPUB Accessibility 1.1](https://www.w3.org/TR/epub-a11y-11/)
-- [DIAGRAM Description](https://www.w3.org/WAI/tutorials/images/complex/)
 - [DAISY Accessible Publishing Knowledge Base](http://kb.daisy.org/publishing/)
